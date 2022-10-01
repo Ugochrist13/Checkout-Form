@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/6353e4bd61.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles.css">
+        <title>Checkout Form</title>
+    </head>
+    <body>
+        <section>
+            <form class="container">
+                <div class="row-1">
+                    <div class="title">
+                        <h2>CHECKOUT FORM</h2>
+                    </div>
+                </div>
+                <div class="row-2">
+                    <div class="row2cont">
+                        <h5>Accepted Cards</h5>
+                        <spam class="icon-container">
+                        <i class="fa fa-cc-visa" style="color:navy;"></i>
+                        <i class="fa fa-cc-amex" style="color:blue;"></i>
+                        <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                        <i class="fa fa-cc-discover" style="color:orange;"></i>
+                        </spam>
+                    </div>
+                </div>
+                <div class="row-3">
+                    <div class="name">
+                        <div class="nameCont">
+                            <h6>Name:</h6>
+                            <input type="text" placeholder="Name: eg Temitope Agwakiti" required>
+                        </div>
+                    </div>
+                    <div class="card-num">
+                        <div class="numCont">
+                            <h6>Card number:</h6>
+                            <input class="cardNum" type="text" placeholder="0000-0000-0000-0000" required>
+                        </div>
+                    </div>
+                    <div class="expCvv">
+                        <div class="expCvvCont">
+                            <div class="expCont">
+                                <h6>Expiry:</h6>
+                                <input class="exp" type="text" placeholder="12/24" required>
+                            </div>
+                            <div class="cvv">
+                                <h6>Cvv:</h6>
+                                <input class="cvvIn" maxlength="3" type="text" placeholder="000" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-4">
+                    <button class="btn">Confirm and Pay</button>
+                </div>
+            </form> 
+        </section>
+    </body>
+    <script src="index.js"></script>
+</html>
